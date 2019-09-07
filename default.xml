@@ -695,6 +695,11 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
+    <project name="Suicide-Squad-Rom/android_device_google_taimen" path="device/google/taimen" remote="github" revision="lineage-17.0"/>
+  <project name="Suicide-Squad-Rom/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="lineage-17.0" />
+  <project name="Suicide-Squad-Rom/android_kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="lineage-17.0"/>
+  <project name="Eamo5/proprietary_vendor_google" path="vendor/google" remote="github" revision="lineage-17.0" />
+  
 
   <include name="snippets/crdroid.xml" />
   <include name="snippets/lineage.xml" />
